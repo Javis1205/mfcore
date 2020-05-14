@@ -1,0 +1,38 @@
+{
+  "name": "@javis1205/mfcore",
+  "version": "1.0.0",
+  "description": "A CLI for mobilefolk mobile team",
+  "main": "index.js",
+  "bin": {
+    "@javis1205/mfcore": "bin/mfcore",
+    "mfcore": "bin/mfcore"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javis1205/mfcore.git"
+  },
+  "keywords": [
+    "mfcore"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javis1205/mfcore/issues"
+  },
+  "homepage": "https://github.com/Javis1205/mfcore#readme",
+  "dependencies": {
+    "arg": "^4.1.3",
+    "esm": "^3.2.25",
+    "fs": "0.0.1-security",
+    "inquirer": "^7.1.0",
+    "ncp": "^2.0.0",
+    "path": "^0.12.7",
+    "util": "^0.12.3"
+  }
+}
